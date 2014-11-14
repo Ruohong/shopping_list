@@ -122,6 +122,12 @@ body{
 
 }
 
+#error {
+	text-align: center;
+	margin-right: 201px;
+	color: red;
+}
+
 /*Table styling */
 
 .a-item-description,.a-price, .a-quantity {
@@ -131,3 +137,31 @@ body{
 	padding-left: 15px;
 	vertical-align: text-top;
 }
+
+.list-wrap {
+	border-radius: 18px;
+	width: 50%;
+	display: inline-block;
+	margin-top: 7px;
+}
+
+.example {
+	text-align: center;
+}
+
+.checkout {
+	width: 150px;
+	height: 40px;
+	margin-left: 770px;
+	text-align: left;
+}
+
+.checkout span{
+	display: inline-block;
+}
+
+.checkout p{
+	display: inline-block;
+	width: 90px;
+}
+
